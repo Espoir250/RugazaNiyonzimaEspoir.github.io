@@ -121,7 +121,7 @@
       text-transform: uppercase;
       padding: 5px 14px;
       margin-bottom: 1.5rem;
-      opacity: 0; animation: fadeUp 0.6s 0.2s forwards;
+      opacity: 1;
     }
 
     .hero-name {
@@ -130,7 +130,7 @@
       color: var(--white);
       line-height: 1.15;
       margin-bottom: 1rem;
-      opacity: 0; animation: fadeUp 0.6s 0.4s forwards;
+      opacity: 1;
     }
 
     .hero-name span { color: var(--gold); }
@@ -138,7 +138,7 @@
     .hero-roles {
       display: flex; flex-wrap: wrap; gap: 0.6rem;
       margin-bottom: 1.8rem;
-      opacity: 0; animation: fadeUp 0.6s 0.6s forwards;
+      opacity: 1;
     }
 
     .role-badge {
@@ -157,12 +157,12 @@
       line-height: 1.75;
       max-width: 520px;
       margin-bottom: 2.4rem;
-      opacity: 0; animation: fadeUp 0.6s 0.8s forwards;
+      opacity: 1;
     }
 
     .hero-btns {
       display: flex; gap: 1rem; flex-wrap: wrap;
-      opacity: 0; animation: fadeUp 0.6s 1s forwards;
+      opacity: 1;
     }
 
     .btn-primary {
@@ -548,8 +548,8 @@
     }
 
     .reveal {
-      opacity: 0;
-      transform: translateY(30px);
+      opacity: 1;
+      transform: translateY(0);
       transition: opacity 0.6s ease, transform 0.6s ease;
     }
     .reveal.visible { opacity: 1; transform: translateY(0); }
